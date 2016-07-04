@@ -65,7 +65,13 @@
         {% endif %}
       }
     </script>
-
+    <style>
+      footer {
+        padding: 15px 0;
+        background-color: #979797;
+        color: #ddd;
+      }
+    </style>
     {% block meta %}
     {% endblock %}
 
@@ -109,6 +115,30 @@
     The error
   </div>
 {% endcall %}
+<footer style="padding: 15px 0px; background-color: rgb(151, 151, 151); color: rgb(221, 221, 221);" class="footer hidden-print">
+      <div class="container">
+        <div class="col-md-4 col-md-offset-2">
+          <p>
+            本网站旨在提供数据分析云平台。
+          </p>
+          <p>
+            备案号：<a href="http://www.miitbeian.gov.cn">京ICP备16033873号</a>
+          </p>
+        </div>
+
+        <div class="col-md-4">
+          <p>
+            应用托管在 <a href="http://t.cn/R5Veeex">SAE</a>
+          </p>
+          <p>
+            我的 GitHub <a href="https://github.com/xxxspy">repository</a>.
+          </p>
+        </div>
+
+        <div class="col-md-4">
+        </div>
+      </div>
+    </footer>
 
 {% block script %}
 {% endblock %}
